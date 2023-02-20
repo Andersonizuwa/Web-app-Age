@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 75, 155);
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.Heading{
+    padding: 10px;
+    border-bottom: 1px solid darkgray;
+    color: blue;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 0px darkgray;
+}
+.D{
+    text-align: center;
+    margin-top: -70px;
+    padding: 40px;
+    position: relative;
+    top: -2px;
+    left: 60px;
+    color: rgb(46, 75, 155);
+    font-size: 18px;
+}
+.Input{
+    padding: 2px;
+    position: relative;
+    top: 60px;
+    left: -80px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid rgb(46, 75, 155);
+    border-radius: 4px;
+    text-align: center;
+}
+.Input:focus{
+    border: 2px solid rgb(46, 75, 155);
+}
+#Submit{
+    width: 30%;
+    border: 3px solid transparent;
+    background-color: rgb(46, 75, 155);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: -8px;
+    margin-top: 80px;
+    font-size: 12px
+}
+#Submit:hover{
+        background-color: transparent;
+        color: black;
+    border: 2px solid blue;
+    cursor: pointer;    
+}
+#P{
+    margin-top: -10px;
+    padding: 20px;
+    color: black;
+}
+@media screen and (max-width: 768px){
+    .main{
+        margin-left: -10px;
+        width: 300px;
+        height: 300px;
+    }
+}
